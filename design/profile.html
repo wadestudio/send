@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{user}}님의 프로필</title>
+    <script src="https://kit.fontawesome.com/9e7d15e18a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/profile.css">
+</head>
+<body>
+    <!-- 상단 메뉴 / 네비게이션 바 -->
+    <div class="navs">
+        
+    </div>
+
+    <!-- 프로필 정보 모달 -->
+    <div class="modal" style="display: none;">
+        <div class="modalBox">
+            <div class="header">
+                <i id="closeModal" class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="info">
+                <img src="https://pbs.twimg.com/profile_images/1479499570405347328/HjeYK33F_400x400.png" alt="">
+                <p class="name">アニメ『からかい上手の高木さん』</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 사용자 배너 이미지 -->
+    <div class="banner"></div>
+    
+    <!-- 콘텐츠 컨테이너 -->
+    <div class="container">
+
+        <!-- 사용자 프로필 -->
+        <div class="profile">
+            <img src="https://pbs.twimg.com/profile_images/1479499570405347328/HjeYK33F_400x400.png" alt="">
+            
+            <div class="explanation">
+
+                <div class="name">
+                    <p>アニメ『からかい上手の高木さん』</p>
+                    <div>
+                        <button id="follow">팔로우</button>
+                        <button id="setting"></button>
+                    </div>
+                </div>
+                
+                <p class="info">
+                    「2022年、見守りたい初恋がここにある。」<br>
+                    『からかい上手の高木さん』のアニメ公式アカウントです。
+                </p>
+
+                <button id="profileMore">더보기</button>
+            </div>
+
+        </div>
+
+        <!-- 사용자 컨텐츠 -->
+        <div class="contents">
+            <div class="tab">
+                <a>홈</a>
+                <a>스토리</a>
+                <a>정보</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./src/profile.js"></script>
+</body>
+</html>
