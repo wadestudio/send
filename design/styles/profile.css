@@ -42,12 +42,25 @@ body{
     font-weight: 500;
 }
 
+.profile .name .setting{
+    display: flex;
+    justify-items: center;
+}
+
 .profile .name button#follow{
     background-color: rgb(0, 132, 255);
     border-radius: 999px;
     padding: 12px 20px 11px;
     border: 0;
     color: #fff;
+    margin:0 5px;
+}
+
+.profile .name button#setting{
+    border: none;
+    background-color: initial;
+    font-size: 20px;
+    margin:0 5px;
 }
 
 .profile .info{
